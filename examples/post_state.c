@@ -11,7 +11,7 @@
 #define LOG_TAG      "state.post"
 #define LOG_LVL      LOG_LVL_DBG
  
-#include "state.h"
+#include "state_machine.h"
 #include <ulog.h>
 
 /*  post state graph
