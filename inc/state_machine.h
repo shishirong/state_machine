@@ -70,6 +70,10 @@
 #include <stddef.h>
 #include <stdbool.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 /**
  * \brief Event
  *
@@ -479,6 +483,10 @@ struct state *statem_state_previous( struct state_machine *state_machine );
  * final state.
  */
 int statem_stopped( struct state_machine *state_machine );
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // state_machine_H
 
